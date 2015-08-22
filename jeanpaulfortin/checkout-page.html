@@ -1,0 +1,525 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jeanpaulfortin</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/accordian.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script>
+$("document").ready(function($){
+    var nav = $('.filter-by');
+	var toggle = $('.filters-toggle');
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            nav.addClass("fixednav");
+			toggle.addClass("fixedtoggle");
+        } else {
+            nav.removeClass("fixednav");
+        	 toggle.removeClass("fixedtoggle");
+		}
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $(".filters-toggle").click(function(){
+        $(".filter-by ul").slideToggle();
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+  mode: 'fade',
+  auto: true, 
+  pause:5000,
+});
+});
+</script>
+</head>
+<body>
+<!--Header Section Start Here-->
+<div class="main-Header">
+  <!--Top Header Section Start-->
+  <div class="top-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10">
+          <!--Top Header Brand-switcher-->
+          <div class="brand-switcher">
+            <ul>
+              <li class="active current">JP Fortin</li>
+              <li><a href="javscript:void(0);">Les pieds sur terre</a></li>
+            </ul>
+          </div>
+          <!--Top Header Brand-switcher-->
+        </div>
+        <div class="col-lg-2">
+          <!--Top Header Social icon-->
+          <div class="social-icon">
+            <p><strong>Follow us</strong> on</p>
+            <ul>
+              <li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          <ul class="form-language">
+            <li><a href="javascript:void(0);">FR</a></li>
+          </ul>
+          <!--Top Header Social icon-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Top Header Section End-->
+  <div class="header-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <!--Logo Section Here-->
+          <div class="logo"><a href="javascript:void(0);"><img src="images/logo.jpg" /></a></div>
+          <div class="tout">
+            <p><strong>Free</strong> shipping on all orders of $198 or more</p>
+          </div>
+          <!--Logo Section End Here-->
+        </div>
+        <div class="col-lg-5">
+          <!--Search Section Here-->
+          <div class="form-search">
+            <input name="" type="text" class="input-text" />
+            <button><i class="fa fa-search"></i></button>
+          </div>
+          <!--Search Section End Here-->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!--Navigation Section Start Here-->
+      <div class="bottom-bar">
+        <nav>
+          <ul class="main-menu">
+            <li><a href="javascript:void(0);" class="nopad active">Women</a>
+              <div class="dropdown">
+                <ul class="featurd">
+                  <li><a href="javascript:void(0);">New Arrivals</a></li>
+                  <li><a href="javascript:void(0);">Best Sellers</a></li>
+                  <li><a href="javascript:void(0);">Web Exclusives</a></li>
+                  <li><a href="javascript:void(0);">Sale</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Shoes</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Sandals</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Boots</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="javascript:void(0);">Men</a>
+              <div class="dropdown">
+                <ul class="featurd">
+                  <li><a href="javascript:void(0);">New Arrivals</a></li>
+                  <li><a href="javascript:void(0);">Best Sellers</a></li>
+                  <li><a href="javascript:void(0);">Web Exclusives</a></li>
+                  <li><a href="javascript:void(0);">Sale</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Shoes</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Sandals</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Boots</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="javascript:void(0);">Accessories</a>
+              <div class="dropdown">
+                <ul class="featurd">
+                  <li><a href="javascript:void(0);">New Arrivals</a></li>
+                  <li><a href="javascript:void(0);">Best Sellers</a></li>
+                  <li><a href="javascript:void(0);">Web Exclusives</a></li>
+                  <li><a href="javascript:void(0);">Sale</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Shoes</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Sandals</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Boots</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="javascript:void(0);">Sale</a></li>
+            <li><a href="javascript:void(0);">Brands</a></li>
+          </ul>
+        </nav>
+        <!--Navigation Section End Here-->
+        <!--Quick Icon Section Start Here-->
+        <div class="quick-access">
+          <div class="links">
+            <ul>
+              <li class="anim"><a href="javascript:void(0);"><i class="fa fa-map-marker"></i><span class="text">Find a Store</span></a></li>
+              <li><a href="javascript:void(0);"><i class="fa fa-heart"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="fa fa-user"></i></a></li>
+            </ul>
+          </div>
+          <div class="cartDetail">
+            <li><a href="javascript:void(0);"><i class="fa fa-shopping-cart"></i> &nbsp;&nbsp;<span class="text">Cart</span>&nbsp; &nbsp;<i class="fa fa-caret-down"></i> </a> </li>
+          </div>
+        </div>
+        <!--Quick Icon Section End Here-->
+      </div>
+    </div>
+  </div>
+</div>
+<!--Header Section End Here-->
+<!--Checkout page section start Here-->
+<div class="container">
+<div class="cart-container">
+  <div class="page-title">
+    <h1>Checkout</h1>
+    <div class="buttons-new">
+      <p class="already-ac">Already have an account? </p>
+      <button type="button" title="Apply Coupon" class="button-set red">LOG iN</button>
+    </div>
+  </div>
+  <div class="divider-full martop"></div>
+  <div class="checkout-steps-wrapper">
+    <ul class="checkout-steps-list">
+      <li class="current"> <a href="#checkout-step-1"> <span>Step 1</span>
+        <h3>Billing address</h3>
+        </a> </li>
+      <li> <a href="#checkout-step-2"> <span>Step 2</span>
+        <h3>Shipping method</h3>
+        </a> </li>
+      <li> <a href="#checkout-step-3"> <span>Step 3</span>
+        <h3>Payment method</h3>
+        </a> </li>
+      <li> <a href="#checkout-step-4"> <span>Step 4</span>
+        <h3>Order review</h3>
+        </a> </li>
+    </ul>
+  </div>
+  <div class="stepcheckout-container">
+    <div class="cheakoutGroup-1">
+      <div class="billing-address">
+        <div class="title">
+          <h2>1. Billing address</h2>
+          <p class="required">* Required Fields</p>
+        </div>
+        <div class="address-con">
+          <ul class="address-left">
+            <li>
+              <input name="" type="text" placeholder="First Name*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Last Name*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Email Address*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Telephone*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Srreet Address 1*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Srreet Address 2*" />
+            </li>
+          </ul>
+          <ul class="address-right">
+            <li>
+              <input name="" type="text" placeholder="First Name*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="First Name*" />
+            </li>
+            <li>
+              <div class="city">
+                <input name="" type="text" placeholder="City*" />
+              </div>
+              <div class="code pl20">
+                <input name="" type="text" placeholder="Zip/Postal Code*" />
+              </div>
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Password*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Confirm Password*" />
+            </li>
+          </ul>
+        </div>
+        <div class="refreshshippingmethod-button">
+          <button type="button" class="large flnone"><span><span>Next</span></span></button>
+        </div>
+      </div>
+      <div class="shipping-address" style="display:none;">
+        <div class="title">
+          <h2>Shipping address</h2>
+        </div>
+        <div class="address-con">
+          <ul class="address-left">
+            <li>
+              <input name="" type="text" placeholder="First Name*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Last Name*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Email Address*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Telephone*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Srreet Address 1*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Srreet Address 2*" />
+            </li>
+          </ul>
+          <ul class="address-right">
+            <li>
+              <input name="" type="text" placeholder="First Name*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="First Name*" />
+            </li>
+            <li>
+              <div class="city">
+                <input name="" type="text" placeholder="City*" />
+              </div>
+              <div class="code pl20">
+                <input name="" type="text" placeholder="Zip/Postal Code*" />
+              </div>
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Password*" />
+            </li>
+            <li>
+              <input name="" type="text" placeholder="Confirm Password*" />
+            </li>
+          </ul>
+        </div>
+        <div class="refreshshippingmethod-button">
+          <button type="button" class="large flnone"><span><span>Next</span></span></button>
+        </div>
+      </div>
+    </div>
+    <div class="cheakoutGroup-2 checkout-step">
+      <div class="shiping-add">
+        <div class="title">
+          <h2>2. Shipping Method</h2>
+        </div>
+      </div>
+      <ul class="shipping-standard">
+        <li>
+          <label>
+          <input name="" type="radio" value="" />
+          </label>
+          <span><strong>Standard</strong></span><span class="price">$5.00</span><br />
+          <p class="info">Shipped the next business day <br>
+            <strong>Est. Delivery 1/6/15</strong></p>
+        </li>
+        <li>
+          <label>
+          <input name="" type="radio" value="" />
+          </label>
+          <span><strong>Standard</strong></span><span class="price">$5.00</span>
+          <p class="info">Shipped the next business day <br>
+            <strong>Est. Delivery 1/6/15</strong></p>
+        </li>
+      </ul>
+    </div>
+    <div class="cheakoutGroup-3 checkout-step">
+      <div class="payment-container">
+        <div class="title">
+          <h2>3. Payment method</h2>
+          <p class="required">* Required Fields</p>
+        </div>
+        <ul class="payment-method">
+          <li>
+            <select name="">
+              <option>Credit Card Type *</option>
+            </select>
+          </li>
+          <li>
+            <input name="" type="text" placeholder="Credit Card Number*" />
+          </li>
+          <li>
+            <div class="month">
+              <select name="">
+                <option>Month</option>
+              </select>
+            </div>
+            <div class="year">
+              <select name="">
+                <option>Year</option>
+              </select>
+            </div>
+            <label>Expiration Date*</label>
+          </li>
+          <li>
+            <div class="crd-no">
+              <input name="" type="text" placeholder="CVV*" />
+            </div>
+            <div class="icon-plus"> <a href="javascript:void(0);"><i class="fa fa-credit-card"></i> What is this?</a> </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="cheakoutGroup-4 checkout-step PB0">
+      <div class="payment-container">
+        <div class="title">
+          <h2>4. Order review</h2>
+        </div>
+      </div>
+      <div class="cart-detail">
+        <ul>
+          <li>
+            <div class="col-lg-2">
+              <div class="cart-img"><img src="images/33023380ja475.jpg" /></div>
+            </div>
+            <div class="col-lg-5">
+              <div class="description MT60">
+                <h1>Nancy Mid Pump</h1>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="col-price"> <span class="cart-price"> <span class="price">$148.00</span> </span>
+                <div class="times">X</div>
+                <div class="times">1</div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="col-subtotal"> <span class="cart-price"> <span class="price">$148.00</span> </span> </div>
+            </div>
+          </li>
+          <li>
+            <div class="col-lg-2">
+              <div class="cart-img"><img src="images/33023380ja475.jpg" /></div>
+            </div>
+            <div class="col-lg-5">
+              <div class="description MT60">
+                <h1>Nancy Mid Pump</h1>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="col-price"> <span class="cart-price"> <span class="price">$148.00</span> </span>
+                <div class="times">X</div>
+                <div class="times">1</div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="col-subtotal"> <span class="cart-price"> <span class="price">$148.00</span> </span> </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="checkout-form">
+    <div class="totals">
+      <div class="sub-total"> <span class="sub-tot">Sub total</span> <span class="price-total">$436.00</span> </div>
+      <div class="sub-total"> <span class="sub-tot">Shipping</span> <span class="price-total">$4.00</span> </div>
+      <div class="sub-total"> <span class="sub-tot">GST</span> <span class="price-total">$6.00</span> </div>
+      <div class="sub-total"> <span class="sub-tot">TAX</span> <span class="price-total">$6.40</span> </div>
+      <div class="grand-total"> <span class="grand">Grand Total</span> <span class="grand-bold">$436.00</span> </div>
+      <button class="large MR30">Place order now</button>
+    </div>
+  </div>
+</div>
+</div>
+<!--Checkout page section end Here-->
+<!--Footer Section Start Here-->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<footer>
+  <!--Copyright here-->
+  <div class="bottom-container">
+    <p>&copy; 2014 Jean-Paul Fortin. All rights reserved.</p>
+    <ul>
+      <li><a href="javascript:void(0);">Legal Terms &amp; Conditions</a></li>
+      <li><a href="javascript:void(0);">Privacy Policy</a></li>
+      <li><a href="javascript:void(0);">Site Map</a></li>
+      <li><a target="_blank" rel="publisher" href="javascript:void(0);">Google+</a></li>
+    </ul>
+  </div>
+  <!--Copyright here-->
+</footer>
+<!--Footer Section End Here-->
+</body>
+</html>

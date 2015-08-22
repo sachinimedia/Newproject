@@ -1,0 +1,650 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jeanpaulfortin</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/accordian.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script>
+$("document").ready(function($){
+    var nav = $('.filter-by');
+	var toggle = $('.filters-toggle');
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            nav.addClass("fixednav");
+			toggle.addClass("fixedtoggle");
+        } else {
+            nav.removeClass("fixednav");
+        	 toggle.removeClass("fixedtoggle");
+		}
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $(".filters-toggle").click(function(){
+        $(".filter-by ul").slideToggle();
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+  mode: 'fade',
+  auto: true, 
+  pause:5000,
+});
+});
+</script>
+</head>
+<body>
+<!--Header Section Start Here-->
+<div class="main-Header">
+  <!--Top Header Section Start-->
+  <div class="top-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10">
+          <!--Top Header Brand-switcher-->
+          <div class="brand-switcher">
+            <ul>
+              <li class="active current">JP Fortin</li>
+              <li><a href="javscript:void(0);">Les pieds sur terre</a></li>
+            </ul>
+          </div>
+          <!--Top Header Brand-switcher-->
+        </div>
+        <div class="col-lg-2">
+          <!--Top Header Social icon-->
+          <div class="social-icon">
+            <p><strong>Follow us</strong> on</p>
+            <ul>
+              <li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          <ul class="form-language">
+            <li><a href="javascript:void(0);">FR</a></li>
+          </ul>
+          <!--Top Header Social icon-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Top Header Section End-->
+  <div class="header-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <!--Logo Section Here-->
+          <div class="logo"><a href="javascript:void(0);"><img src="images/logo.jpg" /></a></div>
+          <div class="tout">
+            <p><strong>Free</strong> shipping on all orders of $198 or more</p>
+          </div>
+          <!--Logo Section End Here-->
+        </div>
+        <div class="col-lg-5">
+          <!--Search Section Here-->
+          <div class="form-search">
+            <input name="" type="text" class="input-text" />
+            <button><i class="fa fa-search"></i></button>
+          </div>
+          <!--Search Section End Here-->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!--Navigation Section Start Here-->
+      <div class="bottom-bar">
+        <nav>
+          <ul class="main-menu">
+            <li><a href="javascript:void(0);" class="nopad active">Women</a>
+              <div class="dropdown">
+                <ul class="featurd">
+                  <li><a href="javascript:void(0);">New Arrivals</a></li>
+                  <li><a href="javascript:void(0);">Best Sellers</a></li>
+                  <li><a href="javascript:void(0);">Web Exclusives</a></li>
+                  <li><a href="javascript:void(0);">Sale</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Shoes</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Sandals</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Boots</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="javascript:void(0);">Men</a>
+              <div class="dropdown">
+                <ul class="featurd">
+                  <li><a href="javascript:void(0);">New Arrivals</a></li>
+                  <li><a href="javascript:void(0);">Best Sellers</a></li>
+                  <li><a href="javascript:void(0);">Web Exclusives</a></li>
+                  <li><a href="javascript:void(0);">Sale</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Shoes</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Sandals</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Boots</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="javascript:void(0);">Accessories</a>
+              <div class="dropdown">
+                <ul class="featurd">
+                  <li><a href="javascript:void(0);">New Arrivals</a></li>
+                  <li><a href="javascript:void(0);">Best Sellers</a></li>
+                  <li><a href="javascript:void(0);">Web Exclusives</a></li>
+                  <li><a href="javascript:void(0);">Sale</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Shoes</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Sandals</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+                <ul class="sub-menu">
+                  <li class="mat-bot"><a href="javascript:void(0);" class="title">Boots</a></li>
+                  <li><a href="javascript:void(0);">Flats</a></li>
+                  <li><a href="javascript:void(0);">Low-mid</a></li>
+                  <li><a href="javascript:void(0);">High</a></li>
+                  <li><a href="javascript:void(0);">Sport</a></li>
+                  <li><a href="javascript:void(0);">Evening</a></li>
+                  <li><a href="javascript:void(0);">Slippers</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="javascript:void(0);">Sale</a></li>
+            <li><a href="javascript:void(0);">Brands</a></li>
+          </ul>
+        </nav>
+        <!--Navigation Section End Here-->
+        <!--Quick Icon Section Start Here-->
+        <div class="quick-access">
+          <div class="links">
+            <ul>
+              <li class="anim"><a href="javascript:void(0);"><i class="fa fa-map-marker"></i><span class="text">Find a Store</span></a></li>
+              <li><a href="javascript:void(0);"><i class="fa fa-heart"></i></a></li>
+              <li><a href="javascript:void(0);"><i class="fa fa-user"></i></a></li>
+            </ul>
+          </div>
+          <div class="cartDetail">
+            <li><a href="javascript:void(0);"><i class="fa fa-shopping-cart"></i> &nbsp;&nbsp;<span class="text">Cart</span>&nbsp; &nbsp;<i class="fa fa-caret-down"></i> </a> </li>
+          </div>
+        </div>
+        <!--Quick Icon Section End Here-->
+      </div>
+    </div>
+  </div>
+</div>
+<!--Header Section End Here-->
+<!--Breadcrumbs and select calegory Section Start Here-->
+<div class="container">
+  <!--Breadcrumbs Section Start Here-->
+  <div class="breadcrumbs">
+    <ul>
+      <li> <a href="javascript:void(0);"> <span> Home </span> </a> <span>&gt; </span> </li>
+      <li> <a href="javascript:void(0);"> <span> Men </span> </a> <span>&gt; </span> </li>
+      <li> <strong>Shoes</strong> </li>
+    </ul>
+  </div>
+  <!--Breadcrumbs Section End Here-->
+  <!--Search seclect caslegory-->
+  <div class="category-intro">
+    <div class="page-title category-title">
+      <h1>Shoes</h1>
+    </div>
+    <div class="category-description">
+      <p>Our selection of men's shoes from top designers offers a wide variety of options in men's footwear. From <a target="_self" href="javascript:void(0);">casual shoes</a> to <a target="_self" href="javascript:void(0);">dress shoes</a>, we have the perfect fit for every occasion.</p>
+    </div>
+    <div class="search-product-container">
+      <div class="filter-by fd">
+        <ul>
+          <li>
+            <select onchange="setLocation(this.value)" id="filter-1">
+              <option>Category</option>
+              <option value="http://www.jeanpaulfortin.com/en/men/shoes.html?cat=292">Dress Lace-ups</option>
+            </select>
+          </li>
+          <li>
+            <select onchange="setLocation(this.value)" id="filter-2">
+              <option>Price</option>
+              <option value="http://www.jeanpaulfortin.com/en/men/shoes.html?price=-100">$0.00 - $99.99</option>
+            </select>
+          </li>
+          <li>
+            <select onchange="setLocation(this.value)" id="filter-3">
+              <option>Brand</option>
+              <option value="http://www.jeanpaulfortin.com/en/men/shoes.html?manufacturer=359">Acton</option>
+            </select>
+          </li>
+          <li>
+            <select onchange="setLocation(this.value)" id="filter-4">
+              <option>Color</option>
+              <option value="http://www.jeanpaulfortin.com/en/men/shoes.html?color=263">beige</option>
+              <option value="http://www.jeanpaulfortin.com/en/men/shoes.html?color=246">black</option>
+            </select>
+          </li>
+          <li>
+            <select onchange="setLocation(this.value)" id="filter-5">
+              <option>Size</option>
+              <option value="http://www.jeanpaulfortin.com/en/men/shoes.html?size_group=564">7</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+      <a class="filters-toggle" href="javascript:void(0);">Filter Options <i class="fa fa-caret-up"></i> </a> </div>
+  </div>
+  <!--Search seclect caslegory-->
+  <div class="divider martop"></div>
+</div>
+</div>
+<!--Breadcrumbs and select calegory Section End Here-->
+<!--Brand Logo Section Start Here-->
+<div class="container">
+  <div class="catalog-container">
+    <div class="col-lg-2">
+      <div class="left-sidebar">
+        <ul>
+          <li><a href="javascript:void(0);"  class="active"><strong>Shoes</strong></a>
+            <ul>
+              <li><a href="javascript:void(0);">Dress Lace-ups</a></li>
+              <li><a href="javascript:void(0);">Dress Loafers</a></li>
+              <li><a href="javascript:void(0);">Casual</a></li>
+              <li><a href="javascript:void(0);">Sport</a></li>
+              <li><a href="javascript:void(0);">Rain</a></li>
+              <li><a href="javascript:void(0);">Slippers</a></li>
+            </ul>
+          </li>
+          <li><a href="javascript:void(0);"><strong>Sandals</strong></a></li>
+          <li><a href="javascript:void(0);"><strong>Boots</strong></a></li>
+          <li><a href="javascript:void(0);"><strong>New Arrivals</strong></a></li>
+          <li><a href="javascript:void(0);"><strong>Best Sellers</strong></a></li>
+          <li><a href="javascript:void(0);"><strong>Web Exclusives</strong></a></li>
+          <li><a href="javascript:void(0);"><strong>Clearance</strong></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-10">
+      <div class="category-products">
+        <div class="toolbar">
+          <div class="amount"> Items 1 to 32 of 361 total <span class="dash">&ndash;</span> <a href="http://www.jeanpaulfortin.com/en/men/shoes.html?limit=all">View All</a> </div>
+          <!-- amount -->
+          <div class="sorter">
+            <div class="sort-by">
+              <label>Sort By:</label>
+              <select onchange="setLocation(this.value)">
+                <option selected="selected" value=""> Most Recent </option>
+                <option value=""> Name </option>
+                <option value=""> Price </option>
+              </select>
+            </div>
+          </div>
+          <div class="pager">
+            <div class="pages">
+              <ul>
+                <li class="current">1</li>
+                <li><a href="javascript:void(0);">2</a></li>
+                <li><a href="javascript:void(0);">3</a></li>
+                <li><a href="javascript:void(0);">4</a></li>
+                <li><a href="javascript:void(0);">5</a></li>
+                <li> <a title="Next" href="javascript:void(0);" class="next"> <i class="fa fa-angle-right"></i> </a> </li>
+              </ul>
+            </div>
+          </div>
+          <!-- pager -->
+        </div>
+        <ul class="products-grid-listing">
+          <li class="item"> <a class="product-image" href="javascript:void(0);"> <img alt="Hann" src="images/43011485ja245.jpg"> </a>
+            <div class="info">
+              <h2 class="product-name"><a href="javascript:void(0);">Hann</a></h2>
+              <div class="price-box"> <span class="regular-price"> <span class="price">$245.00</span> </span> </div>
+              <p class="brand">Ted Baker</p>
+            </div>
+            <!-- info -->
+            <a class="quick-view" href="http://www.jeanpaulfortin.com/en/hann-c30.html">Quick View</a> </li>
+          <li class="item"> <a class="product-image" href="javascript:void(0);"> <img alt="Hann" src="images/44211146ja245.jpg"> </a>
+            <div class="info">
+              <p class="tag"><span>Best Seller</span> </p>
+              <h2 class="product-name"><a href="javascript:void(0);">Sel Latin New Noos</a></h2>
+              <div class="price-box"> <span class="regular-price"> <span class="price">$245.00</span> </span> </div>
+              <p class="brand">Ted Baker</p>
+            </div>
+            <!-- info -->
+            <a class="quick-view" href="http://www.jeanpaulfortin.com/en/hann-c30.html">Quick View</a> </li>
+          <li class="item"> <a class="product-image" href="javascript:void(0);"> <img alt="Hann" src="images/44131559ja180.jpg"> </a>
+            <div class="info">
+              <h2 class="product-name"><a href="javascript:void(0);">Fotiu</a></h2>
+              <div class="price-box"> <span class="regular-price"> <span class="price">$245.00</span> </span> </div>
+              <p class="brand">Ted Baker</p>
+            </div>
+            <!-- info -->
+            <a class="quick-view" href="http://www.jeanpaulfortin.com/en/hann-c30.html">Quick View</a> </li>
+          <li class="item"> <a class="product-image" href="javascript:void(0);"> <img alt="Hann" src="images/43061274ja125.jpg"> </a>
+            <div class="info">
+              <h2 class="product-name"><a href="javascript:void(0);">ROGRR</a></h2>
+              <div class="price-box"> <span class="regular-price"> <span class="price">$245.00</span> </span> </div>
+              <p class="brand">Ted Baker</p>
+            </div>
+            <!-- info -->
+            <a class="quick-view" href="http://www.jeanpaulfortin.com/en/hann-c30.html">Quick View</a> </li>
+          <li class="item"> <a class="product-image" href="javascript:void(0);"> <img alt="Hann" src="images/48031767ja95.jpg"> </a>
+            <div class="info">
+              <h2 class="product-name"><a href="javascript:void(0);">Sel Latin New Noos</a></h2>
+              <div class="price-box"> <span class="regular-price"> <span class="price">$245.00</span> </span> </div>
+              <p class="brand">Ted Baker</p>
+            </div>
+            <!-- info -->
+            <a class="quick-view" href="http://www.jeanpaulfortin.com/en/hann-c30.html">Quick View</a> </li>
+          <li class="item"> <a class="product-image" href="javascript:void(0);"> <img alt="Hann" src="images/45031636ja170.jpg"> </a>
+            <div class="info">
+              <h2 class="product-name"><a href="javascript:void(0);">Biarritz 630094</a></h2>
+              <div class="price-box"> <span class="regular-price"> <span class="price">$245.00</span> </span> </div>
+              <p class="brand">Ted Baker</p>
+            </div>
+            <!-- info -->
+            <a class="quick-view" href="http://www.jeanpaulfortin.com/en/hann-c30.html">Quick View</a> </li>
+          <li class="item"> <a class="product-image" href="javascript:void(0);"> <img alt="Hann" src="images/46041145ja80.jpg"> </a>
+            <div class="info">
+              <h2 class="product-name"><a href="javascript:void(0);">Getaway</a></h2>
+              <div class="price-box"> <span class="regular-price"> <span class="price">$245.00</span> </span> </div>
+              <p class="brand">Ted Baker</p>
+            </div>
+            <!-- info -->
+            <a class="quick-view" href="http://www.jeanpaulfortin.com/en/hann-c30.html">Quick View</a> </li>
+          <li class="item"> <a class="product-image" href="javascript:void(0);"> <img alt="Hann" src="images/43011485ja245.jpg"> </a>
+            <div class="info">
+              <h2 class="product-name"><a href="javascript:void(0);">Helsinki 50104</a></h2>
+              <div class="price-box"> <span class="regular-price"> <span class="price">$245.00</span> </span> </div>
+              <p class="brand">Ted Baker</p>
+            </div>
+            <!-- info -->
+            <a class="quick-view" href="http://www.jeanpaulfortin.com/en/hann-c30.html">Quick View</a> </li>
+          <li class="item"> <a class="product-image" href="javascript:void(0);"> <img alt="Hann" src="images/45031743ja130.jpg"> </a>
+            <div class="info">
+              <h2 class="product-name"><a href="javascript:void(0);">Kelan Lane</a></h2>
+              <div class="price-box"> <span class="regular-price"> <span class="price">$245.00</span> </span> </div>
+              <p class="brand">Ted Baker</p>
+            </div>
+            <!-- info -->
+            <a class="quick-view" href="http://www.jeanpaulfortin.com/en/hann-c30.html">Quick View</a> </li>
+          <li class="item"> <a class="product-image" href="javascript:void(0);"> <img alt="Hann" src="images/41031703ja125.jpg"> </a>
+            <div class="info">
+              <h2 class="product-name"><a href="javascript:void(0);">GOLD CUP BOAT</a></h2>
+              <div class="price-box"> <span class="regular-price"> <span class="price">$245.00</span> </span> </div>
+              <p class="brand">Ted Baker</p>
+            </div>
+            <!-- info -->
+            <a class="quick-view" href="http://www.jeanpaulfortin.com/en/hann-c30.html">Quick View</a> </li>
+          <li class="item"> <a class="product-image" href="javascript:void(0);"> <img alt="Hann" src="images/43031726ja175.jpg"> </a>
+            <div class="info">
+              <h2 class="product-name"><a href="javascript:void(0);">CRT300WA</a></h2>
+              <div class="price-box"> <span class="regular-price"> <span class="price">$245.00</span> </span> </div>
+              <p class="brand">Ted Baker</p>
+            </div>
+            <!-- info -->
+            <a class="quick-view" href="http://www.jeanpaulfortin.com/en/hann-c30.html">Quick View</a> </li>
+          <li class="item"> <a class="product-image" href="javascript:void(0);"> <img alt="Hann" src="images/43011485ja245.jpg"> </a>
+            <div class="info">
+              <h2 class="product-name"><a href="javascript:void(0);">DAWN PATROL SLIPPER</a></h2>
+              <div class="price-box"> <span class="regular-price"> <span class="price">$245.00</span> </span> </div>
+              <p class="brand">Ted Baker</p>
+            </div>
+            <!-- info -->
+            <a class="quick-view" href="http://www.jeanpaulfortin.com/en/hann-c30.html">Quick View</a> </li>
+        </ul>
+        <div class="toolbar-bottom">
+          <div class="pager">
+            <div class="pages">
+              <ul>
+                <li class="current">1</li>
+                <li><a href="javascript:void(0);">2</a></li>
+                <li> <a title="Next" href="javascript:void(0);" class="next"> <i class="fa fa-angle-right"></i> </a> </li>
+              </ul>
+            </div>
+          </div>
+          <!-- pager -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Footer Section Start Here-->
+<footer>
+  <div class="container">
+    <div class="divider martop"></div>
+    <!--Policy icon Start Here-->
+    <div class="support">
+      <ul>
+        <li> <a href="javascript:void(0);"> <span class="icon"><img src="images/img-1.jpg" /></span> <span class="text">Shipping Info</span> </a> </li>
+        <li> <a href="javascript:void(0);"> <span class="icon"><img src="images/img-2.jpg" /></span> <span class="text">Secure Payments</span> </a> </li>
+        <li> <a href="javascript:void(0);"> <span class="icon"><img src="images/img-3.jpg" /></span> <span class="text">Easy Returns</span> </a> </li>
+        <li> <a href="javascript:void(0);"> <span class="icon"><img src="images/img-4.jpg" /></span> <span class="text">Track Your Order</span> </a> </li>
+      </ul>
+    </div>
+    <!--Policy icon End Here-->
+    <div class="divider marbottom"></div>
+  </div>
+  <!--Promotions and social icon Start Here-->
+  <div class="social">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <!--Promotions box Start-->
+          <div class="block block-subscribe"> <span class="heading">Join the fun &amp; get updates on <span>promotions</span></span>
+            <input type="hidden" value="IbAFrhP1453RqEDc" name="form_key">
+            <div class="input-box">
+              <input type="email" placeholder="Enter your email address" class="input-text required-entry validate-email" title="Sign up for our newsletter" id="newsletter" name="email">
+              <div>
+                <input type="checkbox" class="checkbox validate-one-required" value="502e94f087" name="list[502e94f087][subscribed]" style="display:inline;" id="chk_502e94f087">
+                Les Pieds Sur Terre
+                <input type="checkbox" checked="" class="checkbox" value="016cb6f859" name="list[016cb6f859][subscribed]" style="display:inline;" id="chk_016cb6f859">
+                Jean-Paul Fortin </div>
+              <input type="hidden" value="English" name="language">
+            </div>
+            <div class="actions">
+              <button class="button-set red" type="submit">Subscribe</button>
+            </div>
+            <input type="hidden" id="form-state" value="" name="state">
+            <div style="display:none;" class="message"></div>
+          </div>
+          <!--Promotions box End-->
+        </div>
+        <div class="col-lg-5">
+          <!--Follow us Start-->
+          <div class="follow"> <span class="heading">Follow <span>us</span></span>
+            <ul>
+              <li><a target="_blank" href="javascript:void(0);"><i class="fa fa-facebook"></i> Facebook </a></li>
+              <li><a target="_blank" href="javascript:void(0);"><i class="fa fa-twitter"></i> Twitter </a></li>
+              <li><a target="_blank" href="javascript:void(0);"><i class="fa fa-instagram"></i>Instagram </a></li>
+            </ul>
+          </div>
+          <!--Follow us Start-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Promotions and social icon End Here-->
+  <div class="container">
+    <!--Footer Menu Navigation Start Here-->
+    <div class="footer-nav wrapper"> <span class="headlabel">Need any <span>help</span>?</span>
+      <!-- menu column section 1 -->
+      <div class="col first"> <span class="parent heading"><a href="http://www.jeanpaulfortin.com/en/about-jean-paul-fortin/">About Us</a></span>
+        <ul>
+          <li><a href="javascript:void(0);">Jean-Paul Fortin</a></li>
+          <li><a href="javascript:void(0);">Les Pieds sur Terre</a></li>
+          <li><a href="javascript:void(0);">Le Placard</a></li>
+          <li><a href="javascript:void(0);">Our Stores</a></li>
+          <li><a href="javascript:void(0);">Our Commitment</a></li>
+          <li><a href="javascript:void(0);">Careers</a></li>
+        </ul>
+        <span class="parent heading brands-footer-nav"> <a href="javascript:void(0);">Brands</a> </span> </div>
+      <!-- menu column section 2 -->
+      <div class="col"> <span class="heading parent"><a href="javascript:void(0);">Women</a></span>
+        <ul class="top-level">
+          <li><a href="javascript:void(0);">New Arrivals</a></li>
+          <li><a href="javascript:void(0);">Best Sellers</a></li>
+          <li><a href="javascript:void(0);">Web Exclusives</a></li>
+          <li><a href="javascript:void(0);">Sale</a></li>
+          <li><a href="javascript:void(0);">Clearance</a></li>
+          <li><a href="javascript:void(0);">Shoes</a></li>
+          <li><a href="javascript:void(0);">Sandals</a></li>
+          <li><a href="javascript:void(0);">Boots</a></li>
+        </ul>
+      </div>
+      <!-- menu column section 3 -->
+      <div class="col"> <span class="heading parent"><a href="javascript:void(0);">Men</a></span>
+        <ul class="top-level">
+          <li><a href="javascript:void(0);">New Arrivals</a></li>
+          <li><a href="javascript:void(0);">Best Sellers</a></li>
+          <li><a href="javascript:void(0);">Web Exclusives</a></li>
+          <li><a href="javascript:void(0);">Sale</a></li>
+          <li><a href="javascript:void(0);">Clearance</a></li>
+          <li><a href="javascript:void(0);">Shoes</a></li>
+          <li><a href="javascript:void(0);">Sandals</a></li>
+          <li><a href="javascript:void(0);">Boots</a></li>
+        </ul>
+      </div>
+      <!-- menu column section 4 -->
+      <div class="col"> <span class="heading parent"><a href="javascript:void(0);">Accessories</a></span>
+        <ul class="top-level">
+          <li><a href="javascript:void(0);">New Arrivals</a></li>
+          <li><a href="javascript:void(0);">Best Sellers</a></li>
+          <li><a href="javascript:void(0);">Web Exclusives</a></li>
+          <li><a href="javascript:void(0);">Sale</a></li>
+          <li><a href="javascript:void(0);">Clearance</a></li>
+          <li><a href="javascript:void(0);">Women</a></li>
+          <li><a href="javascript:void(0);">Men</a></li>
+          <li><a href="javascript:void(0);">Shoe Care</a></li>
+        </ul>
+      </div>
+      <!-- menu column section 5 -->
+      <div class="col"> <span class="heading parent"><a href="javascript:void(0);">Sale</a></span>
+        <ul class="top-level">
+        </ul>
+      </div>
+      <!-- menu column section 6 -->
+      <div class="col"> <span class="heading parent"><a href="javascript:void(0);">Clearance</a></span>
+        <ul class="top-level">
+        </ul>
+      </div>
+      <!-- menu column section 7 -->
+      <div class="col last"> <span class="parent heading"><a href="javascript:void(0);">Support</a></span>
+        <ul>
+          <li><a href="javascript:void(0);">FAQ</a></li>
+          <li><a href="javascript:void(0);">Shipping</a></li>
+          <li><a href="javascript:void(0);">Track Order</a></li>
+          <li><a href="javascript:void(0);">Returns</a></li>
+          <li><a href="javascript:void(0);">Payment</a></li>
+          <li><a href="javascript:void(0);">Contact</a></li>
+          <li><a href="javascript:void(0);">Size Guide</a></li>
+        </ul>
+      </div>
+      <!-- menu column all section end here -->
+    </div>
+    <!--Footer Menu Navigation End Here-->
+    <div class="divider marbottom"></div>
+  </div>
+  <div class="container">
+    <!--Footer family info and payment icon here-->
+    <div class="footer-info">
+      <div class="family">
+        <h2>JP Fortin Family:</h2>
+        <ul>
+          <li><a href="javascript:void(0);"><img src="images/footer-logo-1.png" /> </a></li>
+          <li><a href="javascript:void(0);"> <img src="images/footer-logo-2.png" /> </a></li>
+          <li><a href="javascript:void(0);"> <img src="images/footer-logo-3.png" /> </a></li>
+        </ul>
+      </div>
+      <!--payment icon here-->
+      <div class="payment">
+        <ul>
+          <li><img src="images/payment-icon-1.png" /></li>
+          <li><img src="images/payment-icon-2.png" /></li>
+          <li><img src="images/payment-icon-3.png" /></li>
+        </ul>
+      </div>
+      <!--payment icon end here-->
+    </div>
+    <!--Footer family info and payment icon here-->
+  </div>
+  <!--Copyright here-->
+  <div class="bottom-container">
+    <p>&copy; 2014 Jean-Paul Fortin. All rights reserved.</p>
+    <ul>
+      <li><a href="javascript:void(0);">Legal Terms &amp; Conditions</a></li>
+      <li><a href="javascript:void(0);">Privacy Policy</a></li>
+      <li><a href="javascript:void(0);">Site Map</a></li>
+      <li><a target="_blank" rel="publisher" href="javascript:void(0);">Google+</a></li>
+    </ul>
+  </div>
+  <!--Copyright here-->
+</footer>
+<!--Footer Section End Here-->
+</body>
+</html>
